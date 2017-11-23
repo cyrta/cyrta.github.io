@@ -1,23 +1,88 @@
----
-layout: default
----
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paweł Cyrta</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/modernizr.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/cwa4gxo.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    
+    
+    <!-- Facebook Pixel Code 
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1859826477570807'); // Insert your pixel ID here.
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1859826477570807&ev=PageView&noscript=1"
+    /></noscript>
+     End Facebook Pixel Code -->
 
-<div class="home">
+  </head>
 
-  <h1 class="page-heading">Posts</h1>
+  <body>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <div class="row">
+      <div class="large-4 columns">
+        <h1>Hi! I'm <strong> Paweł Cyrta</strong></h1>
+        <div class="actions">
+          <ul>
+            <li><a href="https://twitter.com/cyrta" onclick="recordOutboundLink(this, 'Outbound Links', 'twitter-cyrta', 'new_tab');return false;"><i class="icon-twitter"></i> Follow me on Twitter</a></li>
+            <li><a href="http://medium.com/pawel-cyrta" onclick="recordOutboundLink(this, 'Outbound Links', 'blog', 'new_tab');return false;    "><i class="icon-blog"></i> Read my blog</a></li>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+            <!--<li><a href="http://str.tg/1UtZMwF" onclick="recordOutboundLink(this, 'Outbound Links', 'newsletter', 'new_tab');return false;"><i class="icon-newsletter"></i> Sign Up for the Newsletter</a></li>
+            <li><a href="https://strategyzer.com/training/courses" onclick="recordOutboundLink(this, 'Outbound Links', 'strategyzer-courses', 'new_tab');return false;"><i class="icon-strat"></i> Take My Online Courses</a></li>
+            -->
+           <!--  <li><a id="trigger-overlay-hireme"><i class="icon-speak"></i> Hire me</a></li> -->
+          
+          
+          </ul>
+        </div>
+      </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+       <div class="large-8 columns">
+        <p> I am Speech &amp; Music Technology Researcher &amp; Composer, working with state-of-the-art machine learning algorithms and audio/sound content production, processing, analysis and distribution.  I am obsess with making strategy, innovation and entrepreneurship simple, practical, and applicable.</p>
+       </div>
+    </div>
 
-</div>
+    <div class="overlay overlay-form">
+      <button class="overlay-close"><i class="icon-x"></i></button>
+      <div id="overlay-content-container">
+
+      </div>
+    </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/main.js"></script>
+
+
+ <!-- #Google Analytics -->
+ <!--   
+ <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker("UA-");
+      pageTracker._trackPageview();
+    } catch(err) {}
+    </script>
+    -->
+
+
+  </body>
+</html>
+
