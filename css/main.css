@@ -1,11 +1,11 @@
 /*==============Icon Font==================*/
 @font-face {
 	font-family: 'icons-nav';
-	src:url('../fonts/icons-nav.eot?-ca9zrf');
-	src:url('../fonts/icons-nav.eot?#iefix-ca9zrf') format('embedded-opentype'),
-		url('../fonts/icons-nav.woff?-ca9zrf') format('woff'),
-		url('../fonts/icons-nav.ttf?-ca9zrf') format('truetype'),
-		url('../fonts/icons-nav.svg?-ca9zrf#icons-nav') format('svg');
+	src:url('../fonts/icons-nav.eot');
+	src:url('../fonts/icons-nav.eot') format('embedded-opentype'),
+		url('../fonts/icons-nav.woff') format('woff'),
+		url('../fonts/icons-nav.ttf') format('truetype'),
+		url('../fonts/icons-nav.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
