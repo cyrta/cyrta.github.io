@@ -108,9 +108,10 @@
 html, body {
 	width: 100%;
 	height: auto;
-	background: rgb(255, 254, 243);
+/*	background: rgb(255, 254, 243); */
+    background: rgb(255, 255, 33);
 	font: "ars-maquette-web",  Helvetica, sans-serif;
-	font-size: 18px;
+    font-size: 18px;
 	font-weight: 100;
 }
 
