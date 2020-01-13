@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>general on Pawel Cyrta</title>
+    <link>http://cyrta.com/tags/general/</link>
+    <description>Recent content in general on Pawel Cyrta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jan 2020 17:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://cyrta.com/tags/general/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://cyrta.com/posts/hello-world/</link>
+      <pubDate>Mon, 13 Jan 2020 17:00:00 +0800</pubDate>
+      
+      <guid>http://cyrta.com/posts/hello-world/</guid>
+      <description>Hello 😅
+I am glad that I finally get this blog rolling.</description>
+    </item>
+    
+  </channel>
+</rss>

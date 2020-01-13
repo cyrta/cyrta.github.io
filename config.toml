@@ -4,8 +4,8 @@ languageCode = "en-us"
 defaultcontentlanguage = "en-us"
 title = "Pawel Cyrta"
 
-#theme = "hugo-coder"
-#
+theme = "hugo-coder"
+
 
 paginate = 20
 canonifyurls = true
@@ -31,6 +31,7 @@ custom_css = ["css/master.css"]
 custom_js = ["js/mermaid.min.js", "js/index.js"]
 commit = "https://github.com/cyrta/cyrta.github.io/tree"
 
+colorscheme = "dark"
 
 [[params.social]]
 name = "Github"
@@ -41,7 +42,7 @@ url = "https://github.com/cyrta"
 name = "Twitter"
 icon = "fab fa-twitter fa-2x"
 weight = 2
-url = "https://twitter/cyrta"
+url = "https://twitter.com/cyrta"
 [[params.social]]
 name = "Contact Me"
 icon = "fas fa-envelope fa-2x"
